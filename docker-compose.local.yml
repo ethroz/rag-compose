@@ -1,0 +1,4 @@
+services:
+  rag:
+    volumes:
+      - ${HOMEDRIVE}${HOMEPATH}/.aws:/root/.aws:ro  # Mount AWS credentials for local development
